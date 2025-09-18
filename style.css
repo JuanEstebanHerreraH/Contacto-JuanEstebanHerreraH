@@ -21,7 +21,7 @@ color: brown;
 }
 
 .body{
-background: url("Assets/fondo.gif") no-repeat center center fixed;
+background: url("Assets/fondo2.gif") no-repeat center center fixed;
       background-size: cover; 
     text-align: center;
 }
@@ -63,7 +63,7 @@ margin-right: 180px;
     margin-right:auto;
     margin-left: 34%;
     display: flex;
-    gap: 50px;
+    gap: 45px;
 }
 
 .caja img{
