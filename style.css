@@ -21,14 +21,15 @@ color: brown;
 }
 
 .body{
-    background-color: black;
+background: url("Assets/fondo.gif") no-repeat center center fixed;
+      background-size: cover; 
     text-align: center;
 }
 
 .header{
 background-color:cornflowerblue;
 padding: 1.5rem;
- box-shadow: 0 0 20px rgb(116, 88, 11),
+ box-shadow: 0 0 30px rgb(116, 88, 11),
                0 0 40px rgb(2, 73, 37),
                0 0 50px rgb(52, 17, 182)
 }
@@ -38,7 +39,7 @@ padding: 1.5rem;
 }
 
 .DivisorUno{
-    background-color: transparent;
+    background-color: black;
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 5%;
