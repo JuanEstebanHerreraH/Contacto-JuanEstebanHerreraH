@@ -28,6 +28,9 @@ color: brown;
 .header{
 background-color:cornflowerblue;
 padding: 1.5rem;
+ box-shadow: 0 0 20px rgb(116, 88, 11),
+               0 0 40px rgb(2, 73, 37),
+               0 0 50px rgb(52, 17, 182)
 }
 
 .p{
@@ -41,7 +44,7 @@ padding: 1.5rem;
     margin-top: 5%;
     text-align: justify;
     font-size: 1.2rem;
-    box-shadow: 0 0 30px rgb(11, 70, 138),
+    box-shadow: 0 0 30px rgb(45, 112, 189),
                0 0 40px rgb(2, 73, 37),
                0 0 50px rgb(52, 17, 182);
 }
@@ -79,6 +82,10 @@ border: 5px solid blue;
   text-shadow: 0 0 5px rgb(113, 153, 20),
                0 0 10px rgb(18, 112, 65),
                0 0 20px rgb(52, 17, 182);
+
+ box-shadow: 0 0 20px rgb(11, 70, 138),
+               0 0 40px rgb(2, 73, 37),
+               0 0 50px rgb(52, 17, 182);
 }
 
 /* Estilos generales aquí (los que ya tienes) */
