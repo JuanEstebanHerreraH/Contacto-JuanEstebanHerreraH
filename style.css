@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
+:root {
+  --fuente-bitcount: "Bitcount Ink", sans-serif;
+  --fuente-krona: "Krona One", sans-serif;
+  --fuente-montserrat: "Montserrat", sans-serif;
+}
 .Link_NAV{
     color: azure;
 text-decoration: none;
@@ -17,44 +22,51 @@ text-shadow: 0 0 5px rgb(113, 153, 20),
 }
 
 .Link_NAV:hover{
-color: brown;
+color: #e94560;
 }
 
 .body{
-background: url("Assets/fondo2.gif") no-repeat center center fixed;
+background: url("Assets/fondo3.gif") no-repeat center center fixed;
       background-size: cover; 
     text-align: center;
 }
 
 .header{
-background-color:cornflowerblue;
+background-color:#16213e;
 padding: 1.5rem;
- box-shadow: 0 0 30px rgb(116, 88, 11),
-               0 0 40px rgb(2, 73, 37),
-               0 0 50px rgb(52, 17, 182)
+ box-shadow: 0 0 10px rgb(11, 31, 99),
+               0 0 20px rgb(5, 66, 36),
+               0 0 25px rgb(37, 13, 121);
+               font-family: var(--fuente-krona);
 }
 
 .p{
-    color:white
+    color:#e6f1ff;
 }
-
+.ing{
+  color: #f5f5f5;
+}
 .DivisorUno{
     background-color: black;
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 5%;
-    text-align: justify;
+    margin-top: 8%;
+    text-align: center;
     font-size: 1.2rem;
-    box-shadow: 0 0 30px rgb(45, 112, 189),
-               0 0 40px rgb(2, 73, 37),
-               0 0 50px rgb(52, 17, 182);
+    box-shadow: 0 0 15px rgb(19, 110, 49),
+               0 0 20px rgb(2, 73, 37),
+               0 0 30px rgb(24, 9, 78);
+               font-family: var(--fuente-montserrat);
 }
 
 .Esteban{
 float: right;
 margin-right: 15%;
-margin-top: -200px;
+margin-top: -10%;
 margin-right: 180px;
+}
+.strong{
+  color: rgb(131, 214, 6);
 }
 
 .Conexiones{
@@ -67,12 +79,12 @@ margin-right: 180px;
 }
 
 .caja img{
-border: 5px solid blue; 
+border: 3px groove rgb(25, 92, 25);
   border-radius: 10px;  
 }
 
 .footer {
-  background-color: chocolate;
+  background-color: #16213e;
   color: aliceblue;
   padding: 1.5rem;
   position: fixed;
@@ -84,9 +96,11 @@ border: 5px solid blue;
                0 0 10px rgb(18, 112, 65),
                0 0 20px rgb(52, 17, 182);
 
- box-shadow: 0 0 20px rgb(11, 70, 138),
-               0 0 40px rgb(2, 73, 37),
-               0 0 50px rgb(52, 17, 182);
+ box-shadow: 0 0 10px rgb(11, 31, 99),
+               0 0 20px rgb(5, 66, 36),
+               0 0 25px rgb(37, 13, 121);
+
+font-family: var(--fuente-krona);
 }
 
 
