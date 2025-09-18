@@ -89,7 +89,7 @@ border: 5px solid blue;
                0 0 50px rgb(52, 17, 182);
 }
 
-/* Estilos generales aquí (los que ya tienes) */
+
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
@@ -99,7 +99,7 @@ border: 5px solid blue;
     width: 90%;
     font-size: 1rem;
     text-align: justify;
-    box-shadow: none; /* opcional: quitas la sombra para que no se vea recargado */
+    box-shadow: none; 
   }
 
   .Esteban {
