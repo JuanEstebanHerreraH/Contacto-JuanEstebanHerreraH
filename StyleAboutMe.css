@@ -1,0 +1,45 @@
+.CajaGrande{
+  display: grid;
+  grid-template-columns: repeat(2, auto); 
+  margin-top: 25px;
+  gap: 35px;
+  justify-content: center;
+}
+
+body{
+    background-image: url(/Assets/fondo3.gif);
+    min-height: 145vh; 
+}
+.icono {
+  width: 30px;   
+  height: 30px;  
+  object-fit: contain; 
+  vertical-align: middle; 
+}
+.Espacio{
+ border: 2px solid #ffffff;
+ text-align: center;
+ background-color: black;
+}
+.texto {
+  font-family: var(--fuente-montserrat);
+  color: #e6f1ff;
+  line-height: 1.8;
+  font-size: 1.1rem; /* ligeramente más grande */
+  max-width: 500px;  /* que no ocupe toda la pantalla */
+    list-style: none;  
+}
+.texto strong {
+  color: #ffd700; /* un dorado que contraste con el azul */
+}
+.Titulo {
+    margin-top: 20px;
+  text-align: center;      
+  margin-bottom: 20px;      
+  font-family: var(--fuente-krona);
+  font-size: 24px;
+  color: wheat;
+}
+.Titulo2{
+color: white;
+}
