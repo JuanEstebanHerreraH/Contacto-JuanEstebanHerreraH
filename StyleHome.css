@@ -110,49 +110,50 @@ font-family: var(--fuente-krona);
 
 @media (max-width: 768px) {
 
+  /* Ajuste del texto principal */
   .DivisorUno {
-    margin: 20px auto;
+    margin: 5% auto 2% auto;
     width: 90%;
     font-size: 1rem;
-    text-align: justify;
-    box-shadow: none; 
+    text-align: center;
+    box-shadow: none;
+    padding: 1rem;
   }
 
+  /* Imagen de Esteban centrada y más pequeña */
   .Esteban {
     float: none;
+    display: block;
     margin: 20px auto;
-    display: flex;
-    justify-content: center;
-  }
-
-  .Esteban img {
-    max-width: 200px;
-    width: 80%;
+    width: 150px;
     height: auto;
     border-radius: 10px;
+    border: 3px groove rgb(25, 92, 25);
   }
 
+  /* Conexiones (GitHub, LinkedIn, CUN) en columna */
   .Conexiones {
     flex-direction: column;
-    margin: 20px auto;
-    align-items: center;
     gap: 20px;
+    align-items: center;
+    margin: 20px auto;
   }
 
-  .caja img {
-    max-width: 120px;
-    height: auto;
-  }
-
+  /* Navegación */
   .Link_NAV {
     display: block;
     font-size: 1.2rem;
     padding: 10px;
+    text-align: center;
   }
 
+  /* Footer ya no fijo */
   .footer {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    width: 100%;
     font-size: 0.9rem;
     padding: 1rem;
-    text-align: center;
   }
 }
