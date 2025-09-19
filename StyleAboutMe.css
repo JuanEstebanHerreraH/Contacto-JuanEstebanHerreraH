@@ -68,7 +68,6 @@ text-shadow: 0 0 5px #00FF00, 0 0 5px #00FF00;
     padding: 1rem;
   }
 
-  /* Ajustes de contenido */
   .CajaGrande {
     display: flex;
     flex-direction: column;

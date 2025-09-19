@@ -110,7 +110,6 @@ font-family: var(--fuente-krona);
 
 @media (max-width: 768px) {
 
-  /* Ajuste del texto principal */
   .DivisorUno {
     margin: 5% auto 2% auto;
     width: 90%;
@@ -120,7 +119,7 @@ font-family: var(--fuente-krona);
     padding: 1rem;
   }
 
-  /* Imagen de Esteban centrada y más pequeña */
+
   .Esteban {
     float: none;
     display: block;
@@ -131,7 +130,7 @@ font-family: var(--fuente-krona);
     border: 3px groove rgb(25, 92, 25);
   }
 
-  /* Conexiones (GitHub, LinkedIn, CUN) en columna */
+
   .Conexiones {
     flex-direction: column;
     gap: 20px;
@@ -139,7 +138,6 @@ font-family: var(--fuente-krona);
     margin: 20px auto;
   }
 
-  /* Navegación */
   .Link_NAV {
     display: block;
     font-size: 1.2rem;
@@ -147,7 +145,6 @@ font-family: var(--fuente-krona);
     text-align: center;
   }
 
-  /* Footer ya no fijo */
   .footer {
     position: relative;
     bottom: auto;
