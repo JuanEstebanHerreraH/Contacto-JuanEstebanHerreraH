@@ -4,11 +4,11 @@
   margin-top: 25px;
   gap: 35px;
   justify-content: center;
+  box-sizing: content-box;
 }
 
 body{
-    background-image: url(/Assets/fondo3.gif);
-    min-height: 145vh; 
+    min-height: 150vh; 
 }
 .icono {
   width: 30px;   
@@ -20,17 +20,27 @@ body{
  border: 2px solid #ffffff;
  text-align: center;
  background-color: black;
+ border-radius: 6px; 
+ border: 3px groove rgb(25, 92, 25);
+     box-shadow: 0 0 15px rgb(19, 110, 49),
+               0 0 20px rgb(2, 73, 37),
+               0 0 30px rgb(24, 9, 78);
+               background-color: rgba(0,0,0,0.7);
+               
 }
 .texto {
   font-family: var(--fuente-montserrat);
-  color: #e6f1ff;
   line-height: 1.8;
-  font-size: 1.1rem; /* ligeramente más grande */
-  max-width: 500px;  /* que no ocupe toda la pantalla */
-    list-style: none;  
+  font-size: 1.1rem; 
+  max-width: 500px; 
+list-style: none;  
+color: #E0E0E0;
+}
+a{
+  color:#E0E0E0;
 }
 .texto strong {
-  color: #ffd700; /* un dorado que contraste con el azul */
+  color: #FFFF66; 
 }
 .Titulo {
     margin-top: 20px;
@@ -38,8 +48,11 @@ body{
   margin-bottom: 20px;      
   font-family: var(--fuente-krona);
   font-size: 24px;
-  color: wheat;
+  color: white;
+  text-shadow: 0 0 5px #00FF00, 0 0 5px #00FF00;
 }
 .Titulo2{
 color: white;
+font-family: var(--fuente-krona);
+text-shadow: 0 0 5px #00FF00, 0 0 5px #00FF00;
 }
