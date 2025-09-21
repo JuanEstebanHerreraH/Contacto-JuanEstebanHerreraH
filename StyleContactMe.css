@@ -1,0 +1,48 @@
+.contacto {
+  display: flex;
+ margin: 50px auto;
+  border-radius: 10px;
+  width: 80%;
+  overflow: hidden; 
+  max-width: 50%;
+  margin-top: 100px;
+flex-direction: row-reverse;
+
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.7); 
+
+border-radius: 6px; 
+border: 3px groove white;
+}
+
+.panel_izquierdo {
+  flex: 1; 
+  max-width:35%;
+  background: #d9f2c0;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+.boton{
+border: 3px groove white;
+border-radius: 6px;
+background-color: aquamarine;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ul{
+    list-style: none;
+}
+
+.texto{
+  flex: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  color: white;
+  background: rgba(0,0,0,0.7);
+}
