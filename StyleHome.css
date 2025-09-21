@@ -136,6 +136,7 @@ font-family: var(--fuente-krona);
     gap: 20px;
     align-items: center;
     margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.7);
   }
 
   .Link_NAV {
